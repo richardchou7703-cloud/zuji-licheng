@@ -179,11 +179,14 @@ body{
   letter-spacing:.04em;
   padding:6px 14px;
 }
-.contact-email:hover{
-  color:#9a5943;
-  text-decoration:underline;
-  text-underline-offset:4px;
-  background:rgba(182,106,78,.08);
+.contact-email:hover,
+.contact-email:focus,
+.contact-email:active{
+  color:#4b463e;
+  text-decoration:none;
+  background:transparent;
+  box-shadow:none;
+  transform:translateX(-50%);
 }
 .cover-email{
   top:44.2%;
@@ -430,9 +433,7 @@ body{
     <div class="scene-image-wrap">
       <img class="scene-image" src="images/01.png" alt="《足跡。歷程》封面" width="941" height="1672" loading="eager" fetchpriority="high" decoding="async">
       <a class="contact-overlay contact-email cover-email"
-         href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=richardchou7703@gmail.com"
-         target="_blank"
-         rel="noopener noreferrer"
+         href="mailto:richardchou7703@gmail.com"
          aria-label="寄信給周佳慮 richardchou7703@gmail.com">richardchou7703@gmail.com</a>
     </div>
   </section>
